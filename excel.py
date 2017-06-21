@@ -8,11 +8,11 @@ import os
 
 EXCEL_DIR = os.path.abspath(os.path.join(__file__, '../excel'))
 DB_CONF = {
-    'host': 'mysql_node_risk_mgmt_10089',
+    'host': '127.0.0.1',
     'port': 10089,
-    'user': 'risk_mgmt_user',
-    'password': 'Sx7Fw5Hb8Wt1',
-    'db': 'risk_mgmt',
+    'user': 'user',
+    'password': 'passwd',
+    'db': 'database',
     'charset': 'utf8',
 }
 
